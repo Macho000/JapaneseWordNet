@@ -1,0 +1,26 @@
+link,lang,def
+also,eng,"See also"
+syns,eng,Synonyms
+hype,eng,Hypernyms
+inst,eng,Instances
+hypo,eng,Hyponym
+hasi,eng,"Has Instance"
+mero,eng,Meronyms
+mmem,eng,"Meronyms --- Member"
+msub,eng,"Meronyms --- Substance"
+mprt,eng,"Meronyms --- Part"
+holo,eng,Holonyms
+hmem,eng,"Holonyms --- Member"
+hsub,eng,"Holonyms --- Substance"
+hprt,eng,"Holonyms -- Part"
+attr,eng,Attributes
+sim,eng,"Similar to"
+enta,eng,Entails
+caus,eng,Causes
+dmnc,eng,"Domain --- Category"
+dmnu,eng,"Domain --- Usage"
+dmnr,eng,"Domain --- Region"
+dmtc,eng,"In Domain --- Category"
+dmtu,eng,"In Domain --- Usage"
+dmtr,eng,"In Domain --- Region"
+ants,eng,Antonyms
