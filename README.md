@@ -10,3 +10,30 @@
   - `select synset_def.def from synset_def left join synset on synset.synset=synset_def.synset where synset.name=?`
 ## Get short sentence using index word
   - `select synset_ex.def from synset_ex left join synset on synset_ex.synset=synset.synset where synset.name=?`
+
+--- 
+# If you search words stored in yourtext.txt, you could search all words.
+  - `python3 searchWords --inputfile yourtext.txt`
+<details><summary>yourtext.txt is like this</summary><div>
+  
+word
+  
+happy
+
+software
+
+network
+</div></details>
+
+
+---
+# If you change sqlite3 to MySQL, you could use this command
+  - `sqlite3 db.sqlite3 .dump > dump.sql`
+  - `cat dump.sql | python sqlite3-to-mysql.py > mysql.sql`
+  - `$ mysql -u USERNAME -p`
+  - `mysql> CREATE DATABASE hoge CHARACTER SET utf8mb4;`
+  - `mysql> USE hoge;`
+  - `mysql> source /path/to/mysql.sql;`
+  
+  
+  
